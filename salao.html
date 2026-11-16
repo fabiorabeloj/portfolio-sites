@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Studio Aurora · cabelo e unhas na Vila Exemplo</title>
+  <meta name="description" content="Corte, escova, coloração, manicure e pedicure. Terça a sábado. Agende seu horário pelo WhatsApp.">
+  <meta name="theme-color" content="#f7ebe6">
+  <style>
+    :root{--fundo:#fffaf7;--rosa:#f7ebe6;--rosa2:#efd9d1;--vinho:#9e3f4f;--vinho2:#7f2f3d;--texto:#3b2a2d;--suave:#6c575b;--linha:#ead7d0}
+    *{box-sizing:border-box;margin:0}
+    html{scroll-behavior:smooth}
+    body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--fundo);color:var(--texto);line-height:1.6}
+    h1,h2,h3{font-family:"Palatino Linotype",Palatino,Georgia,serif;font-weight:600;line-height:1.15;color:var(--vinho2)}
+    a{color:inherit}
+    img{display:block;max-width:100%;height:auto}
+    .aviso{background:var(--texto);color:#f1e6e3;font-size:.78rem;text-align:center;padding:6px 16px}
+    .env{max-width:1080px;margin:0 auto;padding:0 20px}
+    header{position:sticky;top:0;z-index:5;background:rgba(255,250,247,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--linha)}
+    header .env{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .marca{text-decoration:none;font-family:"Palatino Linotype",Palatino,Georgia,serif;font-size:1.45rem;color:var(--vinho2)}
+    .marca i{font-style:italic;color:var(--vinho)}
+    .botao{display:inline-flex;align-items:center;gap:8px;background:var(--vinho);color:#fff;font-weight:600;text-decoration:none;padding:12px 22px;border-radius:999px;border:0;cursor:pointer;font-size:1rem}
+    .botao:hover{background:var(--vinho2)}
+    .botao.claro{background:#fff;color:var(--vinho2);border:1px solid var(--rosa2)}
+    .botao.peq{padding:9px 16px;font-size:.9rem}
+    .hero{background:var(--rosa)}
+    .hero .env{display:grid;gap:28px;padding-top:40px;padding-bottom:48px}
+    .hero h1{font-size:clamp(2.2rem,6vw,3.6rem)}
+    .hero p{font-size:1.1rem;max-width:40ch;margin:14px 0 24px;color:var(--suave)}
+    .hero figure{border-radius:200px 200px 24px 24px;overflow:hidden;box-shadow:0 20px 50px rgba(158,63,79,.18)}
+    .hero figure img{width:100%;aspect-ratio:4/3;object-fit:cover}
+    .chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+    .chips span{background:#fff;border:1px solid var(--rosa2);border-radius:999px;padding:5px 12px;font-size:.84rem;color:var(--vinho2)}
+    .acoes{display:flex;flex-wrap:wrap;gap:12px}
+    section{padding:72px 0}
+    section.hero{padding:0}
+    .titulo{margin-bottom:30px}
+    .titulo span{color:var(--vinho);font-size:.8rem;letter-spacing:.22em;text-transform:uppercase}
+    .titulo h2{font-size:clamp(1.8rem,4vw,2.5rem);margin-top:6px}
+    .grupos{display:grid;gap:22px;grid-template-columns:1fr}
+    .grupo{background:#fff;border:1px solid var(--linha);border-radius:22px;padding:26px}
+    .grupo h3{font-size:1.4rem;margin-bottom:8px}
+    .linha{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid var(--linha)}
+    .linha:last-child{border-bottom:0}
+    .linha small{display:block;color:var(--suave);font-size:.86rem}
+    .linha b{color:var(--vinho2);white-space:nowrap}
+    .fundo-rosa{background:var(--rosa)}
+    .fotos{display:grid;gap:14px;grid-template-columns:1fr}
+    .fotos img{width:100%;border-radius:22px;aspect-ratio:1/1;object-fit:cover}
+    .fotos .texto{background:var(--vinho);color:#fff;border-radius:22px;padding:30px;display:flex;flex-direction:column;justify-content:center}
+    .fotos .texto h3{color:#fff;font-size:1.6rem;margin-bottom:10px}
+    .fotos .texto p{color:#f6dfe2;margin-bottom:20px}
+    .fotos .texto .botao{background:#fff;color:var(--vinho2);align-self:flex-start}
+    .lado{display:grid;gap:22px;grid-template-columns:1fr}
+    .cartao{background:#fff;border:1px solid var(--linha);border-radius:22px;padding:26px}
+    .cartao h3{font-size:1.3rem;margin-bottom:12px}
+    .cartao p{margin-bottom:18px}
+    .horas{width:100%;border-collapse:collapse}
+    .horas td{padding:8px 0;border-bottom:1px solid var(--linha)}
+    .horas td:last-child{text-align:right;font-weight:600}
+    .fechado{color:var(--suave);font-weight:400!important}
+    footer{border-top:1px solid var(--linha);padding:28px 0 96px;font-size:.88rem;color:var(--suave)}
+    footer .env{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+    footer strong{color:var(--vinho)}
+    .flutuante{position:fixed;right:16px;bottom:16px;z-index:6;width:58px;height:58px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.25);border:0;cursor:pointer}
+    .flutuante svg{width:30px;height:30px}
+    .toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(20px);background:var(--texto);color:#fff;padding:12px 18px;border-radius:12px;font-size:.92rem;box-shadow:0 10px 30px rgba(0,0,0,.25);opacity:0;pointer-events:none;transition:.25s;max-width:calc(100% - 32px);text-align:center;z-index:9}
+    .toast.ver{opacity:1;transform:translateX(-50%) translateY(0)}
+    @media (min-width:760px){
+      .hero .env{grid-template-columns:1.05fr 1fr;align-items:center;padding-top:56px;padding-bottom:64px}
+      .grupos,.lado{grid-template-columns:1fr 1fr}
+      .fotos{grid-template-columns:1fr 1fr 1fr}
+      .flutuante{display:none}
+      footer{padding-bottom:28px}
+    }
+    @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.toast{transition:none}}
+  @media(max-width:759px){section{padding:48px 0}}
+  </style>
+</head>
+<body>
+  <div class="aviso">Demonstração fictícia da Facility · Imagens de IA · Contatos simulados</div>
+
+  <header>
+    <div class="env">
+      <a class="marca" href="#inicio">Studio <i>Aurora</i></a>
+      <button type="button" class="botao peq" data-exemplo="whatsapp">Agendar</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="env">
+        <div>
+          <div class="chips"><span>Cabelo</span><span>Unhas</span><span>Terça a sábado</span></div>
+          <h1>Seu horário marcado, do jeito que você gosta.</h1>
+          <p>Corte, escova, cor e unhas num espaço tranquilo na Vila Exemplo. Você escolhe o horário pelo WhatsApp e chega sem espera.</p>
+          <div class="acoes">
+            <button type="button" class="botao" data-exemplo="whatsapp">Agendar meu horário</button>
+            <a class="botao claro" href="#servicos">Ver serviços e preços</a>
+          </div>
+        </div>
+        <figure><img src="fotos/salao-capa.jpg" alt="Cabeleireira finalizando o cabelo ondulado de uma cliente sorrindo" width="1344" height="768"></figure>
+      </div>
+    </section>
+
+    <section id="servicos">
+      <div class="env">
+        <div class="titulo"><span>Serviços</span><h2>Preços que você já sabe antes de chegar</h2></div>
+        <div class="grupos">
+          <div class="grupo">
+            <h3>Cabelo</h3>
+            <div class="linha"><div>Corte feminino<small>com lavagem e finalização</small></div><b>R$ 80</b></div>
+            <div class="linha"><div>Escova<small>lisa ou modelada</small></div><b>R$ 50</b></div>
+            <div class="linha"><div>Hidratação<small>com escova</small></div><b>R$ 70</b></div>
+            <div class="linha"><div>Coloração<small>avaliação no dia</small></div><b>a partir de R$ 150</b></div>
+          </div>
+          <div class="grupo">
+            <h3>Unhas</h3>
+            <div class="linha"><div>Mão</div><b>R$ 30</b></div>
+            <div class="linha"><div>Pé</div><b>R$ 35</b></div>
+            <div class="linha"><div>Pé e mão</div><b>R$ 60</b></div>
+            <div class="linha"><div>Alongamento em gel<small>manutenção a cada 21 dias</small></div><b>R$ 140</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="fundo-rosa">
+      <div class="env">
+        <div class="titulo"><span>O espaço</span><h2>Luz boa, café e conversa leve</h2></div>
+        <div class="fotos">
+          <img src="fotos/salao-capa.jpg" alt="Interior claro do salão com espelho redondo e plantas" loading="lazy" width="1344" height="768">
+          <img src="fotos/salao-detalhe.jpg" alt="Manicure aplicando esmalte nude" loading="lazy" width="1024" height="1024">
+          <div class="texto">
+            <h3>Pacote noiva e madrinhas</h3>
+            <p>Cabelo e unhas para o grande dia, com prova antes. Chame para montar o seu.</p>
+            <button type="button" class="botao" data-exemplo="whatsapp">Quero saber mais</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="onde">
+      <div class="env lado">
+        <div class="cartao">
+          <h3>Horário</h3>
+          <table class="horas"><tbody>
+            <tr><td>Terça a sexta</td><td>9h às 19h</td></tr>
+            <tr><td>Sábado</td><td>8h às 17h</td></tr>
+            <tr><td>Domingo e segunda</td><td class="fechado">fechado</td></tr>
+          </tbody></table>
+        </div>
+        <div class="cartao">
+          <h3>Onde fica</h3>
+          <p>Rua dos Ipês, 48, sala 2 · Vila Exemplo · São Paulo<br>Perto do ponto de ônibus da avenida.</p>
+          <div class="acoes">
+            <button type="button" class="botao" data-exemplo="mapa">Abrir no mapa</button>
+            <button type="button" class="botao claro" data-exemplo="whatsapp">Chamar no WhatsApp</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="env">
+      <span>© 2026 Studio Aurora · demonstração fictícia</span>
+      <span>Página feita pela <strong>Facility</strong>. A Facility te ajuda a prosperar.</span>
+    </div>
+  </footer>
+
+  <button type="button" class="flutuante" data-exemplo="whatsapp" aria-label="Agendar pelo WhatsApp"><svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 .9c.3.1.5.2.5.3.1.2.1.7-.1 1.3Z"/></svg></button>
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    // Nos exemplos, os botões só avisam; no site do cliente eles abrem o WhatsApp e o mapa de verdade.
+    const avisos = {
+      whatsapp: "No seu site, este botão abre o WhatsApp do seu negócio com a mensagem pronta.",
+      mapa: "No seu site, este botão abre o seu endereço no Google Maps."
+    };
+    const toast = document.querySelector(".toast");
+    let tempo;
+    document.querySelectorAll("[data-exemplo]").forEach(b => b.addEventListener("click", () => {
+      toast.textContent = avisos[b.dataset.exemplo];
+      toast.classList.add("ver");
+      clearTimeout(tempo);
+      tempo = setTimeout(() => toast.classList.remove("ver"), 3200);
+    }));
+  </script>
+</body>
+</html>

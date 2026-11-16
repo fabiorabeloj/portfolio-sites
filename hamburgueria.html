@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chapa Quente · smash burger na Vila Exemplo</title>
+  <meta name="description" content="Smash burger na chapa, batata crocante e combos. Quarta a domingo, das 18h às 23h30. Peça pelo WhatsApp e receba em casa.">
+  <meta name="theme-color" content="#141210">
+  <style>
+    :root{--fundo:#141210;--fundo2:#1e1b18;--laranja:#ff7a1a;--amarelo:#ffd23f;--texto:#f4efe8;--suave:#b3aaa0;--linha:rgba(255,255,255,.1)}
+    *{box-sizing:border-box;margin:0}
+    html{scroll-behavior:smooth}
+    body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--fundo);color:var(--texto);line-height:1.55}
+    h1,h2,h3{font-family:Impact,"Arial Black","Segoe UI Black",sans-serif;font-weight:900;text-transform:uppercase;letter-spacing:.01em;line-height:1.02}
+    a{color:inherit}
+    img{display:block;max-width:100%;height:auto}
+    .aviso{background:var(--amarelo);color:#1a1400;font-size:.78rem;text-align:center;padding:6px 16px;font-weight:600}
+    .env{max-width:1080px;margin:0 auto;padding:0 20px}
+    header{position:sticky;top:0;z-index:5;background:rgba(20,18,16,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--linha)}
+    header .env{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .marca{text-decoration:none;font-family:Impact,"Arial Black",sans-serif;font-size:1.5rem;text-transform:uppercase}
+    .marca span{color:var(--laranja)}
+    .botao{display:inline-flex;align-items:center;gap:8px;background:var(--laranja);color:#1a0d00;font-weight:800;text-decoration:none;padding:13px 22px;border-radius:12px;border:0;cursor:pointer;font-size:1rem}
+    .botao:hover{background:var(--amarelo)}
+    .botao.vazado{background:transparent;color:var(--texto);border:2px solid var(--linha)}
+    .botao.peq{padding:9px 16px;font-size:.9rem}
+    .hero{position:relative;overflow:hidden}
+    .hero .env{display:grid;gap:24px;padding-top:36px;padding-bottom:52px}
+    .hero h1{font-size:clamp(2.8rem,9vw,5.4rem)}
+    .hero h1 em{font-style:normal;color:var(--laranja)}
+    .hero p{font-size:1.1rem;color:var(--suave);max-width:38ch;margin:16px 0 24px}
+    .hero figure img{width:100%;border-radius:22px;aspect-ratio:16/10;object-fit:cover}
+    .status{display:inline-flex;align-items:center;gap:8px;background:var(--fundo2);border:1px solid var(--linha);border-radius:999px;padding:6px 14px;font-size:.86rem;margin-bottom:16px}
+    .status i{width:9px;height:9px;border-radius:50%;background:#3ddc84;box-shadow:0 0 0 4px rgba(61,220,132,.18)}
+    .acoes{display:flex;flex-wrap:wrap;gap:12px}
+    section{padding:68px 0}
+    section.hero{padding:0}
+    .titulo{margin-bottom:28px}
+    .titulo span{color:var(--amarelo);font-size:.8rem;letter-spacing:.22em;text-transform:uppercase;font-weight:700}
+    .titulo h2{font-size:clamp(2rem,5vw,3rem);margin-top:6px}
+    .cardapio{display:grid;gap:14px;grid-template-columns:1fr}
+    .lanche{background:var(--fundo2);border:1px solid var(--linha);border-radius:18px;padding:20px;display:flex;justify-content:space-between;gap:16px}
+    .lanche h3{font-size:1.25rem;margin-bottom:6px}
+    .lanche p{color:var(--suave);font-size:.92rem}
+    .lanche b{color:var(--amarelo);font-size:1.25rem;white-space:nowrap;font-family:Impact,"Arial Black",sans-serif;font-weight:900}
+    .tag{display:inline-block;background:var(--laranja);color:#1a0d00;font-size:.72rem;font-weight:800;border-radius:6px;padding:2px 7px;margin-left:6px;vertical-align:middle;text-transform:uppercase}
+    .combo{margin-top:18px;background:linear-gradient(120deg,var(--laranja),#ff9a3d);color:#1a0d00;border-radius:18px;padding:22px;display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+    .combo strong{font-family:Impact,"Arial Black",sans-serif;font-size:1.4rem;text-transform:uppercase}
+    .combo .botao{background:#1a0d00;color:var(--amarelo)}
+    .fotos{display:grid;gap:14px;grid-template-columns:1fr}
+    .fotos img{width:100%;border-radius:18px;aspect-ratio:1/1;object-fit:cover}
+    .lado{display:grid;gap:20px;grid-template-columns:1fr}
+    .cartao{background:var(--fundo2);border:1px solid var(--linha);border-radius:18px;padding:24px}
+    .cartao h3{font-size:1.3rem;margin-bottom:12px}
+    .cartao p{margin-bottom:16px;color:var(--suave)}
+    .horas{width:100%;border-collapse:collapse}
+    .horas td{padding:8px 0;border-bottom:1px solid var(--linha)}
+    .horas td:last-child{text-align:right;font-weight:700}
+    .fechado{color:var(--suave);font-weight:400!important}
+    footer{border-top:1px solid var(--linha);padding:28px 0 96px;font-size:.88rem;color:var(--suave)}
+    footer .env{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+    footer strong{color:var(--laranja)}
+    .flutuante{position:fixed;right:16px;bottom:16px;z-index:6;width:58px;height:58px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.4);border:0;cursor:pointer}
+    .flutuante svg{width:30px;height:30px}
+    .toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(20px);background:#fff;color:#111;padding:12px 18px;border-radius:12px;font-size:.92rem;box-shadow:0 10px 30px rgba(0,0,0,.4);opacity:0;pointer-events:none;transition:.25s;max-width:calc(100% - 32px);text-align:center;z-index:9}
+    .toast.ver{opacity:1;transform:translateX(-50%) translateY(0)}
+    @media (min-width:760px){
+      .hero .env{grid-template-columns:1fr 1.1fr;align-items:center;padding-top:56px;padding-bottom:64px}
+      .cardapio,.lado{grid-template-columns:1fr 1fr}
+      .fotos{grid-template-columns:1fr 1fr}
+      .flutuante{display:none}
+      footer{padding-bottom:28px}
+    }
+    @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.toast{transition:none}}
+  @media(max-width:759px){section{padding:48px 0}}
+  </style>
+</head>
+<body>
+  <div class="aviso">Demonstração fictícia da Facility · Imagens de IA · Contatos simulados</div>
+
+  <header>
+    <div class="env">
+      <a class="marca" href="#inicio">Chapa <span>Quente</span></a>
+      <button type="button" class="botao peq" data-exemplo="whatsapp">Pedir agora</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="env">
+        <div>
+          <span class="status"><i></i>Quarta a domingo · 18h às 23h30</span>
+          <h1>Smash na chapa, <em>direto</em> na sua casa.</h1>
+          <p>Blend prensado na hora, queijo derretendo e batata crocante. Você pede pelo WhatsApp e acompanha o pedido por lá.</p>
+          <div class="acoes">
+            <button type="button" class="botao" data-exemplo="whatsapp">Pedir pelo WhatsApp</button>
+            <a class="botao vazado" href="#cardapio">Ver cardápio</a>
+          </div>
+        </div>
+        <figure><img src="fotos/lanche-capa.jpg" alt="Smash burger com cheddar derretido e bacon, com batata frita ao lado" width="1344" height="768"></figure>
+      </div>
+    </section>
+
+    <section id="cardapio">
+      <div class="env">
+        <div class="titulo"><span>Cardápio</span><h2>Escolhe o seu</h2></div>
+        <div class="cardapio">
+          <div class="lanche"><div><h3>Smash simples</h3><p>Pão brioche, 1 smash de 90 g, cheddar e molho da casa.</p></div><b>R$ 24</b></div>
+          <div class="lanche"><div><h3>Smash duplo <span class="tag">mais pedido</span></h3><p>2 smash de 90 g, cheddar duplo, cebola na chapa e molho.</p></div><b>R$ 32</b></div>
+          <div class="lanche"><div><h3>Chapa bacon</h3><p>2 smash, cheddar, bacon crocante e maionese defumada.</p></div><b>R$ 36</b></div>
+          <div class="lanche"><div><h3>Veggie</h3><p>Hambúrguer de grão-de-bico, queijo, alface e tomate.</p></div><b>R$ 30</b></div>
+          <div class="lanche"><div><h3>Batata crocante</h3><p>Porção individual, com molho à parte.</p></div><b>R$ 16</b></div>
+          <div class="lanche"><div><h3>Refri lata</h3><p>350 ml.</p></div><b>R$ 7</b></div>
+        </div>
+        <div class="combo">
+          <strong>Vira combo: + batata + refri por R$ 18</strong>
+          <button type="button" class="botao" data-exemplo="whatsapp">Montar meu pedido</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="env">
+        <div class="titulo"><span>Na chapa</span><h2>Feito na hora</h2></div>
+        <div class="fotos">
+          <img src="fotos/lanche-detalhe.jpg" alt="Chapeiro prensando hambúrgueres na chapa quente" loading="lazy" width="1024" height="1024">
+          <img src="fotos/lanche-capa.jpg" alt="Smash burger servido na tábua de madeira" loading="lazy" width="1344" height="768">
+        </div>
+      </div>
+    </section>
+
+    <section id="onde">
+      <div class="env lado">
+        <div class="cartao">
+          <h3>Horário</h3>
+          <table class="horas"><tbody>
+            <tr><td>Quarta a domingo</td><td>18h às 23h30</td></tr>
+            <tr><td>Segunda e terça</td><td class="fechado">fechado</td></tr>
+          </tbody></table>
+        </div>
+        <div class="cartao">
+          <h3>Entrega e retirada</h3>
+          <p>Entregamos na Vila Exemplo e nos bairros vizinhos, com taxa a partir de R$ 5. Retirada na Av. Central, 900.</p>
+          <div class="acoes">
+            <button type="button" class="botao" data-exemplo="whatsapp">Pedir pelo WhatsApp</button>
+            <button type="button" class="botao vazado" data-exemplo="mapa">Abrir no mapa</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="env">
+      <span>© 2026 Chapa Quente · demonstração fictícia</span>
+      <span>Página feita pela <strong>Facility</strong>. A Facility te ajuda a prosperar.</span>
+    </div>
+  </footer>
+
+  <button type="button" class="flutuante" data-exemplo="whatsapp" aria-label="Pedir pelo WhatsApp"><svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 .9c.3.1.5.2.5.3.1.2.1.7-.1 1.3Z"/></svg></button>
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    // Nos exemplos, os botões só avisam; no site do cliente eles abrem o WhatsApp e o mapa de verdade.
+    const avisos = {
+      whatsapp: "No seu site, este botão abre o WhatsApp do seu negócio com o pedido já começado.",
+      mapa: "No seu site, este botão abre o seu endereço no Google Maps."
+    };
+    const toast = document.querySelector(".toast");
+    let tempo;
+    document.querySelectorAll("[data-exemplo]").forEach(b => b.addEventListener("click", () => {
+      toast.textContent = avisos[b.dataset.exemplo];
+      toast.classList.add("ver");
+      clearTimeout(tempo);
+      tempo = setTimeout(() => toast.classList.remove("ver"), 3200);
+    }));
+  </script>
+</body>
+</html>

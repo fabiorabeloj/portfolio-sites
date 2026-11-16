@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfólio de sites · Fabio Rabelo</title>
+  <meta name="description" content="Três sites de exemplo para pequenos negócios: barbearia, salão de beleza e hamburgueria. HTML, CSS e JavaScript, pensados primeiro para o celular.">
+  <style>
+    :root { --tinta: #1d2125; --suave: #5b636b; --fundo: #f6f5f2; --cartao: #ffffff; --borda: #e2e0da; --destaque: #0e5a43; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; color: var(--tinta); background: var(--fundo); line-height: 1.55; }
+    header, main, footer { max-width: 1080px; margin: 0 auto; padding: 0 20px; }
+    header { padding-top: 56px; padding-bottom: 8px; }
+    h1 { font-size: clamp(1.9rem, 4vw, 2.6rem); line-height: 1.15; margin: 0 0 12px; }
+    .lead { color: var(--suave); font-size: 1.1rem; max-width: 640px; margin: 0; }
+    .aviso { display: inline-block; margin-top: 18px; font-size: .85rem; color: var(--suave); background: #ebe9e3; border-radius: 999px; padding: 6px 14px; }
+    .grade { display: grid; grid-template-columns: repeat(auto-fit, minmax(290px, 1fr)); gap: 22px; margin: 36px 0 56px; }
+    .cartao { background: var(--cartao); border: 1px solid var(--borda); border-radius: 16px; overflow: hidden; display: flex; flex-direction: column; text-decoration: none; color: inherit; transition: transform .15s ease, box-shadow .15s ease; }
+    .cartao:hover, .cartao:focus-visible { transform: translateY(-3px); box-shadow: 0 12px 28px rgba(0,0,0,.08); }
+    .cartao:focus-visible { outline: 3px solid var(--destaque); outline-offset: 3px; }
+    .cartao img { width: 100%; height: auto; aspect-ratio: 16 / 10; object-fit: cover; object-position: top; display: block; border-bottom: 1px solid var(--borda); }
+    .corpo { padding: 18px 20px 22px; }
+    .corpo h2 { font-size: 1.2rem; margin: 0 0 4px; }
+    .corpo p { margin: 0 0 12px; color: var(--suave); }
+    .tags { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 0; margin: 0; }
+    .tags li { font-size: .78rem; background: #eef4f1; color: var(--destaque); border-radius: 999px; padding: 3px 10px; }
+    section.feito { border-top: 1px solid var(--borda); padding: 32px 0 8px; }
+    section.feito h2 { font-size: 1.15rem; margin: 0 0 10px; }
+    section.feito ul { margin: 0; padding-left: 20px; color: var(--suave); }
+    footer { padding-top: 24px; padding-bottom: 48px; color: var(--suave); font-size: .92rem; }
+    a.link { color: var(--destaque); }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Portfólio de sites para pequenos negócios</h1>
+    <p class="lead">Três páginas de exemplo, cada uma com identidade própria, preços claros e um caminho direto para o cliente agendar ou pedir.</p>
+    <span class="aviso">Negócios fictícios · imagens geradas por IA · contatos simulados</span>
+  </header>
+
+  <main>
+    <div class="grade">
+      <a class="cartao" href="barbearia.html">
+        <img src="previas/barbearia.jpg" alt="Página inicial da Barbearia Brasa" width="960" height="600">
+        <div class="corpo">
+          <h2>Barbearia Brasa</h2>
+          <p>Corte e barba com hora marcada, tabela de preços e agendamento em um toque.</p>
+          <ul class="tags"><li>Agendamento</li><li>Tabela de preços</li><li>Tema escuro</li></ul>
+        </div>
+      </a>
+      <a class="cartao" href="salao.html">
+        <img src="previas/salao.jpg" alt="Página inicial do Studio Aurora" width="960" height="600">
+        <div class="corpo">
+          <h2>Studio Aurora</h2>
+          <p>Salão de cabelo e unhas com serviços separados por categoria e horários visíveis.</p>
+          <ul class="tags"><li>Serviços por categoria</li><li>Agendamento</li><li>Tema claro</li></ul>
+        </div>
+      </a>
+      <a class="cartao" href="hamburgueria.html">
+        <img src="previas/hamburgueria.jpg" alt="Página inicial da hamburgueria Chapa Quente" width="960" height="600">
+        <div class="corpo">
+          <h2>Chapa Quente</h2>
+          <p>Hamburgueria com cardápio, horário de funcionamento e pedido direto pelo WhatsApp.</p>
+          <ul class="tags"><li>Cardápio</li><li>Pedido rápido</li><li>Identidade forte</li></ul>
+        </div>
+      </a>
+    </div>
+
+    <section class="feito">
+      <h2>Como foram feitos</h2>
+      <ul>
+        <li>HTML, CSS e JavaScript puros, sem framework e sem etapa de build.</li>
+        <li>Pensados primeiro para o celular e conferidos em 390 px e 1440 px.</li>
+        <li>Botões de contato e mapa simulados: no site de um cliente real, abrem o WhatsApp e o mapa do negócio.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    Feito por <a class="link" href="https://github.com/fabiorabeloj">Fabio Rabelo</a> · <a class="link" href="https://github.com/fabiorabeloj/portfolio-sites">código no GitHub</a>
+  </footer>
+</body>
+</html>

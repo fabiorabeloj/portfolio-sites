@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Barbearia Brasa · corte e barba na Vila Exemplo</title>
+  <meta name="description" content="Corte, barba e sobrancelha com hora marcada. Terça a sexta, 9h às 20h; sábado, 9h às 18h. Agende pelo WhatsApp.">
+  <meta name="theme-color" content="#0f2a22">
+  <style>
+    :root{--fundo:#0f2a22;--fundo2:#143429;--latao:#c9a35c;--latao2:#e2c48a;--creme:#f3ece0;--texto:#e8e1d4;--suave:#a9b5ad;--linha:rgba(201,163,92,.25)}
+    *{box-sizing:border-box;margin:0}
+    html{scroll-behavior:smooth}
+    body{font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--fundo);color:var(--texto);line-height:1.55}
+    h1,h2,h3{font-family:Georgia,"Times New Roman",serif;font-weight:700;color:var(--creme);line-height:1.15}
+    a{color:inherit}
+    img{display:block;max-width:100%;height:auto}
+    .aviso{background:#000;color:#cfcfcf;font-size:.78rem;text-align:center;padding:6px 16px}
+    .env{max-width:1080px;margin:0 auto;padding:0 20px}
+    header{position:sticky;top:0;z-index:5;background:rgba(15,42,34,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--linha)}
+    header .env{display:flex;align-items:center;justify-content:space-between;height:64px}
+    .marca{display:flex;flex-direction:column;text-decoration:none;line-height:1}
+    .marca b{font-family:Georgia,serif;font-size:1.5rem;letter-spacing:.18em;color:var(--latao2)}
+    .marca small{font-size:.68rem;letter-spacing:.32em;text-transform:uppercase;color:var(--suave);margin-top:3px}
+    .botao{display:inline-flex;align-items:center;gap:8px;background:var(--latao);color:#1a1408;font-weight:700;text-decoration:none;padding:12px 20px;border-radius:999px;border:0;cursor:pointer;font-size:1rem}
+    .botao:hover{background:var(--latao2)}
+    .botao.vazado{background:transparent;color:var(--creme);border:1px solid var(--latao)}
+    .botao.peq{padding:9px 16px;font-size:.9rem}
+    .botao svg{width:18px;height:18px}
+    .hero{position:relative;min-height:78vh;display:flex;align-items:flex-end;background:#08140f}
+    .hero img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.72}
+    .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(15,42,34,.1) 20%,rgba(15,42,34,.95) 92%)}
+    .hero .env{position:relative;z-index:1;padding-bottom:56px;padding-top:120px}
+    .selo{display:inline-block;border:1px solid var(--latao);color:var(--latao2);border-radius:999px;padding:5px 12px;font-size:.82rem;margin-bottom:16px}
+    .hero h1{font-size:clamp(2.2rem,6vw,3.8rem);max-width:14ch}
+    .hero p{font-size:1.12rem;max-width:42ch;margin:14px 0 26px;color:var(--texto)}
+    .acoes{display:flex;flex-wrap:wrap;gap:12px}
+    section{padding:72px 0}
+    section.hero{padding:0}
+    .titulo{margin-bottom:32px}
+    .titulo span{color:var(--latao);font-size:.8rem;letter-spacing:.24em;text-transform:uppercase}
+    .titulo h2{font-size:clamp(1.8rem,4vw,2.5rem);margin-top:6px}
+    .precos{display:grid;gap:0 48px;grid-template-columns:1fr}
+    .item{display:flex;align-items:baseline;gap:12px;padding:16px 0;border-bottom:1px solid var(--linha)}
+    .item b{font-size:1.08rem;color:var(--creme)}
+    .item small{display:block;color:var(--suave);font-size:.88rem}
+    .item .pontos{flex:1;border-bottom:1px dotted rgba(201,163,92,.4);transform:translateY(-4px)}
+    .item .valor{font-family:Georgia,serif;font-size:1.2rem;color:var(--latao2);white-space:nowrap}
+    .faixa{background:var(--latao);color:#1a1408;padding:28px 0}
+    .faixa .env{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px}
+    .faixa p{font-family:Georgia,serif;font-size:1.3rem;font-weight:700}
+    .faixa .botao{background:#1a1408;color:var(--latao2)}
+    .fotos{display:grid;gap:14px;grid-template-columns:1fr}
+    .fotos figure{border-radius:14px;overflow:hidden;background:var(--fundo2)}
+    .fotos img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/3}
+    .lado{display:grid;gap:28px;grid-template-columns:1fr}
+    .cartao{background:var(--fundo2);border:1px solid var(--linha);border-radius:16px;padding:26px}
+    .cartao h3{font-size:1.3rem;margin-bottom:14px}
+    .horas{width:100%;border-collapse:collapse}
+    .horas td{padding:8px 0;border-bottom:1px solid var(--linha)}
+    .horas td:last-child{text-align:right;color:var(--creme)}
+    .fechado{color:var(--suave)!important}
+    .cartao p{margin-bottom:18px}
+    footer{border-top:1px solid var(--linha);padding:28px 0 96px;font-size:.88rem;color:var(--suave)}
+    footer .env{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
+    footer strong{color:var(--latao2)}
+    .flutuante{position:fixed;right:16px;bottom:16px;z-index:6;width:58px;height:58px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 8px 24px rgba(0,0,0,.35);border:0;cursor:pointer}
+    .flutuante svg{width:30px;height:30px}
+    .toast{position:fixed;left:50%;bottom:90px;transform:translateX(-50%) translateY(20px);background:#fff;color:#111;padding:12px 18px;border-radius:12px;font-size:.92rem;box-shadow:0 10px 30px rgba(0,0,0,.35);opacity:0;pointer-events:none;transition:.25s;max-width:calc(100% - 32px);text-align:center;z-index:9}
+    .toast.ver{opacity:1;transform:translateX(-50%) translateY(0)}
+    @media (min-width:760px){
+      .precos{grid-template-columns:1fr 1fr}
+      .fotos{grid-template-columns:1.4fr 1fr}
+      .fotos img{aspect-ratio:auto;min-height:320px}
+      .lado{grid-template-columns:1fr 1fr}
+      .flutuante{display:none}
+      footer{padding-bottom:28px}
+    }
+    @media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}.toast{transition:none}}
+  @media(max-width:759px){section{padding:48px 0}}
+  </style>
+</head>
+<body>
+  <div class="aviso">Demonstração fictícia da Facility · Imagens de IA · Contatos simulados</div>
+
+  <header>
+    <div class="env">
+      <a class="marca" href="#inicio" aria-label="Barbearia Brasa, início"><b>BRASA</b><small>barbearia</small></a>
+      <button type="button" class="botao peq" data-exemplo="whatsapp">Agendar</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <img src="fotos/barbearia-capa.jpg" alt="Barbeiro aparando a barba de um cliente na Barbearia Brasa" width="1344" height="768">
+      <div class="env">
+        <span class="selo">Ter–sex · 9h–20h / Sáb · 9h–18h</span>
+        <h1>Corte, barba e aquele papo bom.</h1>
+        <p>Na Vila Exemplo desde 2019. Hora marcada pelo WhatsApp, sem fila e sem pressa.</p>
+        <div class="acoes">
+          <button type="button" class="botao" data-exemplo="whatsapp"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 .9c.3.1.5.2.5.3.1.2.1.7-.1 1.3Z"/></svg>Agendar pelo WhatsApp</button>
+          <a class="botao vazado" href="#precos">Ver preços</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="precos">
+      <div class="env">
+        <div class="titulo"><span>Serviços</span><h2>Preços sem surpresa</h2></div>
+        <div class="precos">
+          <div class="item"><div><b>Corte</b><small>máquina, tesoura ou degradê</small></div><span class="pontos"></span><span class="valor">R$ 45</span></div>
+          <div class="item"><div><b>Barba</b><small>toalha quente e navalha</small></div><span class="pontos"></span><span class="valor">R$ 35</span></div>
+          <div class="item"><div><b>Corte + barba</b><small>o combo mais pedido</small></div><span class="pontos"></span><span class="valor">R$ 70</span></div>
+          <div class="item"><div><b>Pezinho</b><small>acabamento entre um corte e outro</small></div><span class="pontos"></span><span class="valor">R$ 15</span></div>
+          <div class="item"><div><b>Sobrancelha</b><small>na navalha</small></div><span class="pontos"></span><span class="valor">R$ 15</span></div>
+          <div class="item"><div><b>Platinado</b><small>avaliação no dia</small></div><span class="pontos"></span><span class="valor">a partir de R$ 120</span></div>
+        </div>
+      </div>
+    </section>
+
+    <div class="faixa">
+      <div class="env">
+        <p>Primeira vez aqui? Fala que viu a página e a sobrancelha é por nossa conta.</p>
+        <button type="button" class="botao" data-exemplo="whatsapp">Quero agendar</button>
+      </div>
+    </div>
+
+    <section>
+      <div class="env">
+        <div class="titulo"><span>O espaço</span><h2>Cadeira boa, café passado e música baixa</h2></div>
+        <div class="fotos">
+          <figure><img src="fotos/barbearia-capa.jpg" alt="Interior da barbearia com cadeira de couro e espelho" loading="lazy" width="1344" height="768"></figure>
+          <figure><img src="fotos/barbearia-detalhe.jpg" alt="Mãos do barbeiro com navalha e pente fazendo um degradê" loading="lazy" width="1024" height="1024"></figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="onde">
+      <div class="env lado">
+        <div class="cartao">
+          <h3>Horário</h3>
+          <table class="horas"><tbody>
+            <tr><td>Terça a sexta</td><td>9h às 20h</td></tr>
+            <tr><td>Sábado</td><td>9h às 18h</td></tr>
+            <tr><td>Domingo e segunda</td><td class="fechado">fechado</td></tr>
+          </tbody></table>
+        </div>
+        <div class="cartao">
+          <h3>Onde fica</h3>
+          <p>Rua das Palmeiras, 120 · Vila Exemplo · São Paulo<br>Em frente à padaria, com vaga na rua.</p>
+          <div class="acoes">
+            <button type="button" class="botao" data-exemplo="mapa">Abrir no mapa</button>
+            <button type="button" class="botao vazado" data-exemplo="whatsapp">Chamar no WhatsApp</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="env">
+      <span>© 2026 Barbearia Brasa · demonstração fictícia</span>
+      <span>Página feita pela <strong>Facility</strong>. A Facility te ajuda a prosperar.</span>
+    </div>
+  </footer>
+
+  <button type="button" class="flutuante" data-exemplo="whatsapp" aria-label="Agendar pelo WhatsApp"><svg viewBox="0 0 24 24" fill="#fff" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .2-3.3-.7-2.8-1.1-4.5-3.9-4.7-4.1-.1-.2-1.1-1.5-1.1-2.9s.7-2 1-2.3c.2-.3.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.9 2.1c.1.2.1.4 0 .5l-.4.6-.4.4c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.3 2.4 1.5.3.1.5.1.6-.1l.9-1c.2-.3.4-.2.6-.1l2 .9c.3.1.5.2.5.3.1.2.1.7-.1 1.3Z"/></svg></button>
+  <div class="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    // Nos exemplos, os botões só avisam; no site do cliente eles abrem o WhatsApp e o mapa de verdade.
+    const avisos = {
+      whatsapp: "No seu site, este botão abre o WhatsApp do seu negócio com a mensagem pronta.",
+      mapa: "No seu site, este botão abre o seu endereço no Google Maps."
+    };
+    const toast = document.querySelector(".toast");
+    let tempo;
+    document.querySelectorAll("[data-exemplo]").forEach(b => b.addEventListener("click", () => {
+      toast.textContent = avisos[b.dataset.exemplo];
+      toast.classList.add("ver");
+      clearTimeout(tempo);
+      tempo = setTimeout(() => toast.classList.remove("ver"), 3200);
+    }));
+  </script>
+</body>
+</html>
