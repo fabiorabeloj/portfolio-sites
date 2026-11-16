@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url><loc>https://example.invalid/alto-lume/</loc><lastmod>2026-10-28</lastmod><priority>1.0</priority><xhtml:link rel="alternate" hreflang="pt-BR" href="https://example.invalid/alto-lume/"/><xhtml:link rel="alternate" hreflang="en" href="https://example.invalid/alto-lume/en/"/><xhtml:link rel="alternate" hreflang="es" href="https://example.invalid/alto-lume/es/"/></url>
+<url><loc>https://example.invalid/alto-lume/suites/</loc><lastmod>2026-10-28</lastmod><priority>0.8</priority></url>
+<url><loc>https://example.invalid/alto-lume/suites/neblina/</loc><lastmod>2026-10-28</lastmod><priority>0.6</priority></url>
+<url><loc>https://example.invalid/alto-lume/suites/lavanda/</loc><lastmod>2026-10-28</lastmod><priority>0.6</priority></url>
+<url><loc>https://example.invalid/alto-lume/suites/mirante/</loc><lastmod>2026-10-28</lastmod><priority>0.6</priority></url>
+<url><loc>https://example.invalid/alto-lume/experiencias/</loc><lastmod>2026-10-28</lastmod><priority>0.8</priority></url>
+<url><loc>https://example.invalid/alto-lume/reservar/</loc><lastmod>2026-10-28</lastmod><priority>0.8</priority></url>
+<url><loc>https://example.invalid/alto-lume/perguntas/</loc><lastmod>2026-10-28</lastmod><priority>0.8</priority></url>
+<url><loc>https://example.invalid/alto-lume/sobre/</loc><lastmod>2026-10-28</lastmod><priority>0.8</priority></url>
+<url><loc>https://example.invalid/alto-lume/contato/</loc><lastmod>2026-10-28</lastmod><priority>0.8</priority></url>
+<url><loc>https://example.invalid/alto-lume/guia/</loc><lastmod>2026-10-28</lastmod><priority>0.8</priority></url>
+<url><loc>https://example.invalid/alto-lume/guia/o-que-levar-para-a-serra/</loc><lastmod>2026-10-28</lastmod><priority>0.6</priority></url>
+<url><loc>https://example.invalid/alto-lume/guia/quando-a-lavanda-floresce/</loc><lastmod>2026-10-28</lastmod><priority>0.6</priority></url>
+<url><loc>https://example.invalid/alto-lume/guia/como-ver-a-via-lactea/</loc><lastmod>2026-10-28</lastmod><priority>0.6</priority></url>
+<url><loc>https://example.invalid/alto-lume/guia/como-escolher-a-suite/</loc><lastmod>2026-10-28</lastmod><priority>0.6</priority></url>
+<url><loc>https://example.invalid/alto-lume/guia/viajar-com-cachorro-para-a-serra/</loc><lastmod>2026-10-28</lastmod><priority>0.6</priority></url>
+<url><loc>https://example.invalid/alto-lume/guia/roteiro-de-tres-dias/</loc><lastmod>2026-10-28</lastmod><priority>0.6</priority></url>
+<url><loc>https://example.invalid/alto-lume/privacidade/</loc><lastmod>2026-10-28</lastmod><priority>0.8</priority></url>
+<url><loc>https://example.invalid/alto-lume/termos-de-reserva/</loc><lastmod>2026-10-28</lastmod><priority>0.8</priority></url>
+<url><loc>https://example.invalid/alto-lume/cookies/</loc><lastmod>2026-10-28</lastmod><priority>0.8</priority></url>
+<url><loc>https://example.invalid/alto-lume/acessibilidade/</loc><lastmod>2026-10-28</lastmod><priority>0.8</priority></url>
+<url><loc>https://example.invalid/alto-lume/politica-editorial/</loc><lastmod>2026-10-28</lastmod><priority>0.8</priority></url>
+<url><loc>https://example.invalid/alto-lume/en/</loc><lastmod>2026-10-28</lastmod><priority>0.8</priority><xhtml:link rel="alternate" hreflang="pt-BR" href="https://example.invalid/alto-lume/"/><xhtml:link rel="alternate" hreflang="en" href="https://example.invalid/alto-lume/en/"/><xhtml:link rel="alternate" hreflang="es" href="https://example.invalid/alto-lume/es/"/></url>
+<url><loc>https://example.invalid/alto-lume/es/</loc><lastmod>2026-10-28</lastmod><priority>0.8</priority><xhtml:link rel="alternate" hreflang="pt-BR" href="https://example.invalid/alto-lume/"/><xhtml:link rel="alternate" hreflang="en" href="https://example.invalid/alto-lume/en/"/><xhtml:link rel="alternate" hreflang="es" href="https://example.invalid/alto-lume/es/"/></url>
+</urlset>

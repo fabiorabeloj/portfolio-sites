@@ -1,8 +1,22 @@
 # Sites, vídeo e automação · Fabio Rabelo
 
-Três conceitos fictícios para negócios locais, com identidade própria, preços ilustrativos e botões de contato que mostram apenas um aviso local. Não há envio de mensagens, pedidos ou reserva de horários.
+Um caso de site premium, três páginas para negócios locais, vídeo e automação CSV. São conceitos fictícios, com código, fontes selecionadas e comandos de reprodução. Não há envio de mensagens, pedidos ou reserva de horários.
 
 **[Ver ao vivo →](https://fabiorabeloj.github.io/portfolio-sites/)**
+
+## Alto Lume · caso premium
+
+[Explorar o site](https://fabiorabeloj.github.io/portfolio-sites/examples/premium/site/) · [Fontes, reprodução e direitos](examples/premium/README.md) · [Ficha e limites](examples/premium/FICHA.md)
+
+Conceito de pousada com **25 páginas**, entradas em português, inglês e espanhol e simuladores localizados. Inclui três acomodações, experiências, seis guias em português, perguntas, contato, temas e galerias. As prévias de contato e da estadia ficam na própria página. Reserva confirmada, pagamento, disponibilidade real e administração não estão integrados.
+
+O caso reaproveita a base genérica Alto Lume do serviço Site de experiência, de referência comercial **R$ 8.000**. É uma demonstração própria, sem cliente ou venda realizada. O escopo desta cópia é 25 páginas e três idiomas de entrada; não inclui material escolar.
+
+Para explorar, use o servidor da raiz e abra `/examples/premium/site/`. Para servir o caso separadamente, execute de `examples/premium`: `python -m http.server 8000 --bind 127.0.0.1 --directory site`. Encerre com `Ctrl+C`. Os caminhos relativos funcionam em subpasta.
+
+O site preserva `noindex`. Canonical, compartilhamento e sitemap usam `example.invalid` como referência neutra, descrita no README do pacote. `_headers` depende de suporte da hospedagem; GitHub Pages não aplica esse arquivo como configuração de cabeçalhos. Não há promessa de indexação ou de operação de uma pousada real.
+
+## Três páginas para negócios locais
 
 | [Barbearia Brasa](https://fabiorabeloj.github.io/portfolio-sites/barbearia.html) | [Studio Aurora](https://fabiorabeloj.github.io/portfolio-sites/salao.html) | [Chapa Quente](https://fabiorabeloj.github.io/portfolio-sites/hamburgueria.html) |
 |---|---|---|
@@ -31,7 +45,7 @@ Abra http://127.0.0.1:8000. Encerre com `Ctrl+C`. As páginas também abrem dire
 python tools/verificar.py
 ```
 
-Python 3.10+ e biblioteca padrão. O comando confere os hashes de proveniência e recursos locais dos quatro HTML. Não substitui testes de interação, revisão visual ou acessibilidade completa. [Dependências](docs/DEPENDENCIAS.md) · [Proveniência e atribuições](docs/PROVENIENCIA.md).
+Python 3.10+ e biblioteca padrão. O comando confere os hashes de proveniência e os arquivos/âncoras locais dos HTML incluídos. Não substitui testes de interação, revisão visual ou acessibilidade completa. [Dependências](docs/DEPENDENCIAS.md) · [Proveniência e atribuições](docs/PROVENIENCIA.md).
 
 ## Vídeo e automação
 
@@ -48,6 +62,6 @@ O verificador da raiz também confere os manifestos SHA-256 dos exemplos incluí
 
 ---
 
-**English:** three sample websites for local businesses (barber shop, beauty salon and burger place). Plain HTML/CSS/JavaScript, mobile-first, with clear pricing and a one-tap call to action. Fictional businesses, AI-generated photos and simulated contacts. [Live demo](https://fabiorabeloj.github.io/portfolio-sites/).
+**English:** a premium inn concept with 25 pages and Portuguese, English and Spanish entry points; three local-business landing pages; an 18-second motion-design video; and a runnable CSV automation example. Fictional businesses, identified AI images and local contact previews. Code, selected assets, instructions and limitations accompany each project. [Live demo](https://fabiorabeloj.github.io/portfolio-sites/).
 
 Código original sob licença [MIT](LICENSE), com os avisos próprios de cada exemplo. Essa licença não se estende às imagens ou fontes por suposição. Feito por [Fabio Rabelo](https://github.com/fabiorabeloj).

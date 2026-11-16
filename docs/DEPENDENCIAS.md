@@ -12,6 +12,7 @@ O registro de autoria das imagens indica ComfyUI local, Z-Image Turbo e convers�
 
 | Exemplo | Execução | Geração das provas |
 |---|---|---|
+| Alto Lume premium | HTML/CSS/JavaScript, imagens e fontes locais; servidor estático opcional | Empacotador em Python padrão; licenças das fontes no pacote |
 | Automação CSV | Python 3.12+, biblioteca padrão | Relatório HTML local; capturas e MP4 já incluídos |
 | Vídeo Chapa Quente | MP4 em navegador ou player compatível | Python, Pillow, NumPy, FFmpeg/ffprobe e fontes licenciadas; versões e comandos no README do pacote |
 

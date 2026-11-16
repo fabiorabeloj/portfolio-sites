@@ -30,6 +30,9 @@
     footer { padding-top: 24px; padding-bottom: 48px; color: var(--suave); font-size: .92rem; }
     a.link { color: var(--destaque); }
     video { display: block; width: 100%; height: 350px; background: #141210; }
+    .premium { display: grid; grid-template-columns: 1.2fr 1fr; align-items: center; margin-top: 36px; }
+    .premium .corpo h2 { font-size: 1.6rem; }
+    @media (max-width: 700px) { .premium { grid-template-columns: 1fr; } }
     @media (prefers-reduced-motion: reduce) { .cartao { transition: none; } }
   </style>
 </head>
@@ -41,6 +44,14 @@
   </header>
 
   <main>
+    <a class="cartao premium" href="examples/premium/site/">
+      <img src="examples/premium/capturas/inicio-1440.jpg" alt="Página inicial da pousada fictícia Alto Lume, caso de site premium" width="1440" height="1000">
+      <div class="corpo">
+        <h2>Alto Lume · site premium</h2>
+        <p>Um conceito de pousada com 25 páginas, entradas em português, inglês e espanhol, galeria e simulador de estadia nos três idiomas. Contato e mensagem da estadia geram prévias locais.</p>
+        <ul class="tags"><li>25 páginas</li><li>3 idiomas de entrada</li><li>Conceito fictício</li></ul>
+      </div>
+    </a>
     <div class="grade">
       <a class="cartao" href="barbearia.html">
         <img src="previas/barbearia.jpg" alt="Página inicial da Barbearia Brasa" width="960" height="600">

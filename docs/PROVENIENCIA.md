@@ -26,3 +26,11 @@ A [página oficial Z-Image-Turbo](https://huggingface.co/Tongyi-MAI/Z-Image-Turb
 Capturas e miniaturas mostram os conceitos, sem interface de contas ou conversas. Não são comprovantes de vendas, atendimento, agendamento ou resultado comercial. Nomes, endereços e preços são ilustrativos; não representam ofertas atuais da Facility.
 
 Material adicional só entra com proveniência, atribuições/licenças pertinentes, limites funcionais e prova própria. Dados escolares, conversas, credenciais, logs e caminhos pessoais ficam fora da distribuição.
+
+## Casos adicionados
+
+- `examples/premium`: export Alto Lume de 16/11/2026, 25 HTML e três idiomas de entrada. `manifesto.json` confere 97 arquivos do caso; `FICHA.md` delimita funções, ensaio e simulações. O ZIP de origem e duas reproduções locais do empacotador têm SHA-256 `9116e04fdd74940acbc194df0667d11bc1d357450dedc92f7b7f1a5b7e5281d5`. Código e assets foram copiados sem mudanças. Avisos das fontes estão em `licencas/`; direitos das imagens em `DIREITOS.md`.
+- `examples/video`: export público delimitado de Chapa Quente. `manifesto-publico.json`, `verificacao-publica.json` e `SHA256SUMS.txt` acompanham o master de 18 s. A licença MIT do pacote cobre scripts/composição/áudio originais. O manifesto conserva os limites das fontes que seu produtor recebeu, sem atribuir licença geral às imagens.
+- `examples/automation`: demonstração criada com dados fictícios e Python padrão. `FONTES.md`, `LICENSE`, `VALIDACAO.json` e `SHA256SUMS.txt` acompanham código, fixture, relatório e provas. O log detalhado de testes foi excluído da distribuição; a validação e os hashes foram atualizados para essa seleção. Código e dados originais não foram alterados.
+
+Os atributos do Git preservam os bytes dos exports, inclusive fins de linha. Os manifestos não cobrem os próprios arquivos de manifesto nem os atributos locais acrescentados pela integração. O hash do commit e o ZIP desse commit identificam o conjunto completo.
