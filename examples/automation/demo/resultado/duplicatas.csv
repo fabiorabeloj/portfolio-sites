@@ -1,0 +1,4 @@
+﻿origem;linha;pedido_id;cliente;email;produto;quantidade;valor_unitario;status;motivo
+Arquivo 1;3; ped-1001 ;Loja Azul;contato@lojaazul.example;Caneca;2;39.90;novo;Repetição idêntica após normalização
+Arquivo 1;7;PED-1002; Estúdio  Aurora ;pedidos@aurora.example;Caderno;03;24.50;em_separacao;Repetição idêntica após normalização
+Arquivo 1;8;PED-1004;Ateliê Brisa; COMPRAS@BRISA.EXAMPLE ;Kit de mesa;01;129.0;NOVO;Repetição idêntica após normalização

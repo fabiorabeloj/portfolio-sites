@@ -1,0 +1,54 @@
+{
+  "checks": {
+    "1080x1920": true,
+    "30fps": true,
+    "540_quadros": true,
+    "18_segundos": true,
+    "h264_yuv420p": true,
+    "aac_estereo_48k": true,
+    "audio_video_alinhados": true,
+    "decodificacao_inteira_sem_erro": true,
+    "sem_quadro_preto_acidental": true,
+    "audio_sem_clipping": true,
+    "audio_nao_silencioso": true,
+    "fontes_intactas": true,
+    "contato_cobre18s": true
+  },
+  "video": {
+    "arquivo": "chapa-quente-18s.mp4",
+    "sha256": "abf1a458d08484968a3198af54ceaa974b0a8907d849763c12d3094067c0561f",
+    "bytes": 3105407,
+    "duracao_s": 18.0
+  },
+  "cortes_s": [
+    2.4,
+    6,
+    9.6,
+    13.2
+  ],
+  "assets_por_hash": true,
+  "revisao_visual": {
+    "status": "Conferida pelo principal",
+    "cobertura": "36 amostras a cada0,5s, 8quadros adjacentes aos4cortes, 5quadros1080x1920 e capa; versão final reinspecionada após ajuste.",
+    "legibilidade": "Títulos e aviso legíveis no contato e quadros completos; áreas críticas dentro de x96–910/y160–1560. Aviso opaco persistente. Não é validação de todas as interfaces das plataformas.",
+    "correcao": "Título CAMADA elevado para não sobrepor aviso durante entrada; áudio elevado3dB, agora−18,2LUFS/−2,6dBTP.",
+    "limite_audio": "Análise técnica integral do áudio; sem alegação de escuta subjetiva documentada."
+  },
+  "audio": {
+    "lufs_i": -18.2,
+    "true_peak_dbfs": -2.6
+  },
+  "geracao": {
+    "encoder": "libx264 emCPU, 2threads",
+    "filtros_threads": 1,
+    "python": "3.13.14",
+    "pillow": "12.2.0",
+    "numpy": "2.5.0",
+    "ffmpeg": "9.0.2",
+    "fontes": [
+      "Impact",
+      "Segoe UI Semibold"
+    ],
+    "binarios_ou_ttf_distribuidos": false
+  }
+}

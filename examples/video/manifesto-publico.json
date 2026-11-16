@@ -1,0 +1,40 @@
+{
+  "conceito": "Chapa Quente",
+  "tipo": "Motion design sobre imagens estáticas de IA, não filmagem real.",
+  "referencia_original_relativa": "portfolio-revisado/hamburgueria.html e LEIA-ME.txt",
+  "assets": [
+    {
+      "arquivo": "assets/lanche-capa.jpg",
+      "sha256": "96a8729e830111d60671e4e0e49e197f6d1c9fcc1014a202e8ef5a7e4e0c6d58",
+      "bytes": 113437,
+      "procedencia": "Conceito próprio Chapa Quente do portfólio demonstrativo; imagens de IA declaradas no LEIA-ME e HTML de origem.",
+      "licenca": "Autorização de reaproveitamento do portfólio próprio para esta demonstração e integração revista; não incluir na licença MIT do código. Provedor/modelo gerador e licença dos pesos não comprovados nas fontes disponíveis."
+    },
+    {
+      "arquivo": "assets/lanche-detalhe.jpg",
+      "sha256": "0f4ac0cc28546bbaa7994d07fd71db66e6ed64ba4e97a13f96e8eb157a3b4b33",
+      "bytes": 101937,
+      "procedencia": "Conceito próprio Chapa Quente do portfólio demonstrativo; imagens de IA declaradas no LEIA-ME e HTML de origem.",
+      "licenca": "Autorização de reaproveitamento do portfólio próprio para esta demonstração e integração revista; não incluir na licença MIT do código. Provedor/modelo gerador e licença dos pesos não comprovados nas fontes disponíveis."
+    }
+  ],
+  "audio": {
+    "arquivo": "audio-original.wav",
+    "origem": "Síntese matemática original em render.py: senoides, ruído e envelopes; sem samples, IA de áudio, clonagem ou música de terceiros.",
+    "licenca": "MIT, junto ao código original desta demonstração."
+  },
+  "fontes_tipograficas": [
+    {
+      "nome": "Impact",
+      "arquivo_sistema": "impact.ttf"
+    },
+    {
+      "nome": "Segoe UI Semibold",
+      "arquivo_sistema": "seguisb.ttf"
+    }
+  ],
+  "licenca_fontes": "Fontes do Windows, proprietárias. Apenas texto rasterizado nos gráficos/MP4; arquivos TTF não distribuídos. Nova renderização requer instalação licenciada ou fontes substitutas devidamente licenciadas.",
+  "referencia_fontes": "https://learn.microsoft.com/en-us/typography/fonts/font-faq",
+  "binarios": "FFmpeg/ffprobe não distribuídos; build usado 9.0.2 GPLv3 ou posterior. Pillow12.2.0 e NumPy2.5.0 já existentes no ambiente de geração.",
+  "codigo": "MIT; somente render.py e verificar.py e composição/síntese originais. Não estende licença às imagens ou fontes."
+}

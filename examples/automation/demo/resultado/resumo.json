@@ -1,0 +1,24 @@
+{
+  "campos_invalidos_linhas": 3,
+  "colisao_id_linhas": 2,
+  "dados": "sinteticos_na_demonstracao",
+  "duplicatas_removidas": 3,
+  "entradas": [
+    {
+      "origem": "Arquivo 1",
+      "sha256": "809f8f7f3dd88391da844d1dc5ec3968da8f4d5b7571df1264bc4349e4895c7f"
+    }
+  ],
+  "linhas_normalizadas": 9,
+  "linhas_para_revisar": 5,
+  "linhas_recebidas": 12,
+  "pedidos_prontos": 4,
+  "por_status": {
+    "em_separacao": 1,
+    "enviado": 1,
+    "novo": 2
+  },
+  "regra": "Snapshot determinístico: sobrescreve somente os resultados próprios; não faz append nem envia pedidos.",
+  "schema": 1,
+  "total_pedidos_prontos": "342.20"
+}

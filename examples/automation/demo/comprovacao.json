@@ -1,0 +1,43 @@
+{
+  "arquivos_identicos": true,
+  "dados": "100% fictícios; domínios .example",
+  "execucoes": [
+    {
+      "execucao": 1,
+      "exit_code": 0,
+      "resultado": {
+        "duplicatas": 3,
+        "ok": true,
+        "prontos": 4,
+        "revisar": 5
+      }
+    },
+    {
+      "execucao": 2,
+      "exit_code": 0,
+      "resultado": {
+        "duplicatas": 3,
+        "ok": true,
+        "prontos": 4,
+        "revisar": 5
+      }
+    }
+  ],
+  "primeira": {
+    ".demo-csv.json": "sha256:bc1744214ad110c00fca5b4b4f53d31b77b493cdb2e086a7c805ee4fd37b4307",
+    "duplicatas.csv": "sha256:e6c986367178014f16a465696febfa60c218e64c59d9f16517cea062530a2b0e",
+    "pedidos_limpos.csv": "sha256:11763d10eac160c3c109be15a574ee07e5098747601125eb1178310a8f7bb06b",
+    "relatorio.html": "sha256:38ae44f5dc1334ad0625b99115ceb89c82c4ed84bdaf40dd799ae5897aea5f35",
+    "resumo.json": "sha256:ab15d0b94207584dccdc3843061afff16a9abb5232d29e0f16e6052586d059bf",
+    "revisar.csv": "sha256:b5e068cb6d6bddd1a9b6b2acddbc6c9a9a13a58130516eb96783d1fead2262ab"
+  },
+  "schema": 1,
+  "segunda": {
+    ".demo-csv.json": "sha256:bc1744214ad110c00fca5b4b4f53d31b77b493cdb2e086a7c805ee4fd37b4307",
+    "duplicatas.csv": "sha256:e6c986367178014f16a465696febfa60c218e64c59d9f16517cea062530a2b0e",
+    "pedidos_limpos.csv": "sha256:11763d10eac160c3c109be15a574ee07e5098747601125eb1178310a8f7bb06b",
+    "relatorio.html": "sha256:38ae44f5dc1334ad0625b99115ceb89c82c4ed84bdaf40dd799ae5897aea5f35",
+    "resumo.json": "sha256:ab15d0b94207584dccdc3843061afff16a9abb5232d29e0f16e6052586d059bf",
+    "revisar.csv": "sha256:b5e068cb6d6bddd1a9b6b2acddbc6c9a9a13a58130516eb96783d1fead2262ab"
+  }
+}

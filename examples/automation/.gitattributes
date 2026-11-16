@@ -1,0 +1,2 @@
+# Preserve os bytes do pacote e seus hashes, inclusive na extração no Windows.
+* -text whitespace=cr-at-eol

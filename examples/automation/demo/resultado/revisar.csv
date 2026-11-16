@@ -1,0 +1,6 @@
+﻿origem;linha;pedido_id;cliente;email;produto;quantidade;valor_unitario;status;motivo
+Arquivo 1;9;PED-1005;Loja Campo;sem-arroba.example;Caneca;1;39,90;novo;email: formato não aceito pela demo
+Arquivo 1;10;PED-1006;Estúdio Folha;contato@folha.example;Caderno;zero;24,50;novo;quantidade: inteiro de 1 a 9999
+Arquivo 1;11;PED-1007;Ateliê Nuvem;loja@nuvem.example;Agenda;1;1.234;novo;valor_unitario: decimal sem separador de milhar, com até 2 casas
+Arquivo 1;12;PED-1008;Loja Pátio;contato@patio.example;Ecobag;2;25,00;novo;"Mesmo ID com valores diferentes ou linha inválida; revisar o grupo inteiro"
+Arquivo 1;13;PED-1008;Loja Pátio;contato@patio.example;Ecobag;2;30,00;novo;"Mesmo ID com valores diferentes ou linha inválida; revisar o grupo inteiro"

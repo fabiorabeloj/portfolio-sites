@@ -1,0 +1,820 @@
+{
+  "limites": [
+    96,
+    160,
+    910,
+    1560
+  ],
+  "caixas": [
+    {
+      "texto": "CHAPA QUENTE",
+      "caixa": [
+        96,
+        160,
+        329,
+        189
+      ]
+    },
+    {
+      "texto": "BATEU",
+      "caixa": [
+        96,
+        257,
+        482,
+        385
+      ]
+    },
+    {
+      "texto": "A FOME?",
+      "caixa": [
+        96,
+        408,
+        605,
+        538
+      ]
+    },
+    {
+      "texto": "CONCEITO DEMONSTRATIVO",
+      "caixa": [
+        104,
+        1450,
+        568,
+        1478
+      ]
+    },
+    {
+      "texto": "IMAGENS IA · MARCA FICTÍCIA",
+      "caixa": [
+        104,
+        1497,
+        586,
+        1532
+      ]
+    },
+    {
+      "texto": "CHAPA QUENTE",
+      "caixa": [
+        96,
+        160,
+        329,
+        189
+      ]
+    },
+    {
+      "texto": "BATEU",
+      "caixa": [
+        96,
+        231,
+        482,
+        359
+      ]
+    },
+    {
+      "texto": "A FOME?",
+      "caixa": [
+        96,
+        397,
+        605,
+        527
+      ]
+    },
+    {
+      "texto": "CONCEITO DEMONSTRATIVO",
+      "caixa": [
+        104,
+        1450,
+        568,
+        1478
+      ]
+    },
+    {
+      "texto": "IMAGENS IA · MARCA FICTÍCIA",
+      "caixa": [
+        104,
+        1497,
+        586,
+        1532
+      ]
+    },
+    {
+      "texto": "CHAPA QUENTE",
+      "caixa": [
+        96,
+        160,
+        329,
+        189
+      ]
+    },
+    {
+      "texto": "BATEU",
+      "caixa": [
+        96,
+        225,
+        482,
+        353
+      ]
+    },
+    {
+      "texto": "A FOME?",
+      "caixa": [
+        96,
+        376,
+        605,
+        506
+      ]
+    },
+    {
+      "texto": "CONCEITO DEMONSTRATIVO",
+      "caixa": [
+        104,
+        1450,
+        568,
+        1478
+      ]
+    },
+    {
+      "texto": "IMAGENS IA · MARCA FICTÍCIA",
+      "caixa": [
+        104,
+        1497,
+        586,
+        1532
+      ]
+    },
+    {
+      "texto": "CHAPA QUENTE",
+      "caixa": [
+        96,
+        160,
+        329,
+        189
+      ]
+    },
+    {
+      "texto": "COMEÇA",
+      "caixa": [
+        96,
+        257,
+        576,
+        403
+      ]
+    },
+    {
+      "texto": "NA CHAPA.",
+      "caixa": [
+        96,
+        400,
+        681,
+        522
+      ]
+    },
+    {
+      "texto": "CALOR. CROSTA. SABOR.",
+      "caixa": [
+        96,
+        1360,
+        592,
+        1395
+      ]
+    },
+    {
+      "texto": "CONCEITO DEMONSTRATIVO",
+      "caixa": [
+        104,
+        1450,
+        568,
+        1478
+      ]
+    },
+    {
+      "texto": "IMAGENS IA · MARCA FICTÍCIA",
+      "caixa": [
+        104,
+        1497,
+        586,
+        1532
+      ]
+    },
+    {
+      "texto": "CHAPA QUENTE",
+      "caixa": [
+        96,
+        160,
+        329,
+        189
+      ]
+    },
+    {
+      "texto": "COMEÇA",
+      "caixa": [
+        96,
+        231,
+        576,
+        377
+      ]
+    },
+    {
+      "texto": "NA CHAPA.",
+      "caixa": [
+        96,
+        389,
+        681,
+        511
+      ]
+    },
+    {
+      "texto": "CALOR. CROSTA. SABOR.",
+      "caixa": [
+        96,
+        1360,
+        592,
+        1395
+      ]
+    },
+    {
+      "texto": "CONCEITO DEMONSTRATIVO",
+      "caixa": [
+        104,
+        1450,
+        568,
+        1478
+      ]
+    },
+    {
+      "texto": "IMAGENS IA · MARCA FICTÍCIA",
+      "caixa": [
+        104,
+        1497,
+        586,
+        1532
+      ]
+    },
+    {
+      "texto": "CHAPA QUENTE",
+      "caixa": [
+        96,
+        160,
+        329,
+        189
+      ]
+    },
+    {
+      "texto": "COMEÇA",
+      "caixa": [
+        96,
+        225,
+        576,
+        371
+      ]
+    },
+    {
+      "texto": "NA CHAPA.",
+      "caixa": [
+        96,
+        368,
+        681,
+        490
+      ]
+    },
+    {
+      "texto": "CALOR. CROSTA. SABOR.",
+      "caixa": [
+        96,
+        1360,
+        592,
+        1395
+      ]
+    },
+    {
+      "texto": "CONCEITO DEMONSTRATIVO",
+      "caixa": [
+        104,
+        1450,
+        568,
+        1478
+      ]
+    },
+    {
+      "texto": "IMAGENS IA · MARCA FICTÍCIA",
+      "caixa": [
+        104,
+        1497,
+        586,
+        1532
+      ]
+    },
+    {
+      "texto": "CHAPA QUENTE",
+      "caixa": [
+        96,
+        160,
+        329,
+        189
+      ]
+    },
+    {
+      "texto": "CHEDDAR.",
+      "caixa": [
+        96,
+        242,
+        609,
+        355
+      ]
+    },
+    {
+      "texto": "BACON.",
+      "caixa": [
+        96,
+        373,
+        480,
+        486
+      ]
+    },
+    {
+      "texto": "E PRONTO.",
+      "caixa": [
+        96,
+        504,
+        615,
+        617
+      ]
+    },
+    {
+      "texto": "CONCEITO DEMONSTRATIVO",
+      "caixa": [
+        104,
+        1450,
+        568,
+        1478
+      ]
+    },
+    {
+      "texto": "IMAGENS IA · MARCA FICTÍCIA",
+      "caixa": [
+        104,
+        1497,
+        586,
+        1532
+      ]
+    },
+    {
+      "texto": "CHAPA QUENTE",
+      "caixa": [
+        96,
+        160,
+        329,
+        189
+      ]
+    },
+    {
+      "texto": "CHEDDAR.",
+      "caixa": [
+        96,
+        216,
+        609,
+        329
+      ]
+    },
+    {
+      "texto": "BACON.",
+      "caixa": [
+        96,
+        362,
+        480,
+        475
+      ]
+    },
+    {
+      "texto": "E PRONTO.",
+      "caixa": [
+        96,
+        504,
+        615,
+        617
+      ]
+    },
+    {
+      "texto": "CONCEITO DEMONSTRATIVO",
+      "caixa": [
+        104,
+        1450,
+        568,
+        1478
+      ]
+    },
+    {
+      "texto": "IMAGENS IA · MARCA FICTÍCIA",
+      "caixa": [
+        104,
+        1497,
+        586,
+        1532
+      ]
+    },
+    {
+      "texto": "CHAPA QUENTE",
+      "caixa": [
+        96,
+        160,
+        329,
+        189
+      ]
+    },
+    {
+      "texto": "CHEDDAR.",
+      "caixa": [
+        96,
+        210,
+        609,
+        323
+      ]
+    },
+    {
+      "texto": "BACON.",
+      "caixa": [
+        96,
+        341,
+        480,
+        454
+      ]
+    },
+    {
+      "texto": "E PRONTO.",
+      "caixa": [
+        96,
+        472,
+        615,
+        585
+      ]
+    },
+    {
+      "texto": "CONCEITO DEMONSTRATIVO",
+      "caixa": [
+        104,
+        1450,
+        568,
+        1478
+      ]
+    },
+    {
+      "texto": "IMAGENS IA · MARCA FICTÍCIA",
+      "caixa": [
+        104,
+        1497,
+        586,
+        1532
+      ]
+    },
+    {
+      "texto": "CHAPA QUENTE",
+      "caixa": [
+        96,
+        160,
+        329,
+        189
+      ]
+    },
+    {
+      "texto": "CAPRICHO",
+      "caixa": [
+        96,
+        1067,
+        610,
+        1175
+      ]
+    },
+    {
+      "texto": "EM CADA",
+      "caixa": [
+        96,
+        1192,
+        533,
+        1300
+      ]
+    },
+    {
+      "texto": "CAMADA.",
+      "caixa": [
+        96,
+        1317,
+        545,
+        1425
+      ]
+    },
+    {
+      "texto": "CONCEITO DEMONSTRATIVO",
+      "caixa": [
+        104,
+        1450,
+        568,
+        1478
+      ]
+    },
+    {
+      "texto": "IMAGENS IA · MARCA FICTÍCIA",
+      "caixa": [
+        104,
+        1497,
+        586,
+        1532
+      ]
+    },
+    {
+      "texto": "CHAPA QUENTE",
+      "caixa": [
+        96,
+        160,
+        329,
+        189
+      ]
+    },
+    {
+      "texto": "CAPRICHO",
+      "caixa": [
+        96,
+        1041,
+        610,
+        1149
+      ]
+    },
+    {
+      "texto": "EM CADA",
+      "caixa": [
+        96,
+        1181,
+        533,
+        1289
+      ]
+    },
+    {
+      "texto": "CAMADA.",
+      "caixa": [
+        96,
+        1317,
+        545,
+        1425
+      ]
+    },
+    {
+      "texto": "CONCEITO DEMONSTRATIVO",
+      "caixa": [
+        104,
+        1450,
+        568,
+        1478
+      ]
+    },
+    {
+      "texto": "IMAGENS IA · MARCA FICTÍCIA",
+      "caixa": [
+        104,
+        1497,
+        586,
+        1532
+      ]
+    },
+    {
+      "texto": "CHAPA QUENTE",
+      "caixa": [
+        96,
+        160,
+        329,
+        189
+      ]
+    },
+    {
+      "texto": "CAPRICHO",
+      "caixa": [
+        96,
+        1035,
+        610,
+        1143
+      ]
+    },
+    {
+      "texto": "EM CADA",
+      "caixa": [
+        96,
+        1160,
+        533,
+        1268
+      ]
+    },
+    {
+      "texto": "CAMADA.",
+      "caixa": [
+        96,
+        1285,
+        545,
+        1393
+      ]
+    },
+    {
+      "texto": "CONCEITO DEMONSTRATIVO",
+      "caixa": [
+        104,
+        1450,
+        568,
+        1478
+      ]
+    },
+    {
+      "texto": "IMAGENS IA · MARCA FICTÍCIA",
+      "caixa": [
+        104,
+        1497,
+        586,
+        1532
+      ]
+    },
+    {
+      "texto": "CONCEITO DE MARCA",
+      "caixa": [
+        96,
+        160,
+        415,
+        186
+      ]
+    },
+    {
+      "texto": "CHAPA",
+      "caixa": [
+        96,
+        722,
+        588,
+        878
+      ]
+    },
+    {
+      "texto": "QUENTE",
+      "caixa": [
+        96,
+        905,
+        641,
+        1076
+      ]
+    },
+    {
+      "texto": "SEU PRÓXIMO SMASH.",
+      "caixa": [
+        96,
+        1145,
+        554,
+        1190
+      ]
+    },
+    {
+      "texto": "QUAL É O SEU PEDIDO?",
+      "caixa": [
+        130,
+        1272,
+        617,
+        1322
+      ]
+    },
+    {
+      "texto": "CONCEITO DEMONSTRATIVO",
+      "caixa": [
+        104,
+        1450,
+        568,
+        1478
+      ]
+    },
+    {
+      "texto": "IMAGENS IA · MARCA FICTÍCIA",
+      "caixa": [
+        104,
+        1497,
+        586,
+        1532
+      ]
+    },
+    {
+      "texto": "CONCEITO DE MARCA",
+      "caixa": [
+        96,
+        160,
+        415,
+        186
+      ]
+    },
+    {
+      "texto": "CHAPA",
+      "caixa": [
+        96,
+        696,
+        588,
+        852
+      ]
+    },
+    {
+      "texto": "QUENTE",
+      "caixa": [
+        96,
+        894,
+        641,
+        1065
+      ]
+    },
+    {
+      "texto": "SEU PRÓXIMO SMASH.",
+      "caixa": [
+        96,
+        1145,
+        554,
+        1190
+      ]
+    },
+    {
+      "texto": "QUAL É O SEU PEDIDO?",
+      "caixa": [
+        130,
+        1272,
+        617,
+        1322
+      ]
+    },
+    {
+      "texto": "CONCEITO DEMONSTRATIVO",
+      "caixa": [
+        104,
+        1450,
+        568,
+        1478
+      ]
+    },
+    {
+      "texto": "IMAGENS IA · MARCA FICTÍCIA",
+      "caixa": [
+        104,
+        1497,
+        586,
+        1532
+      ]
+    },
+    {
+      "texto": "CONCEITO DE MARCA",
+      "caixa": [
+        96,
+        160,
+        415,
+        186
+      ]
+    },
+    {
+      "texto": "CHAPA",
+      "caixa": [
+        96,
+        690,
+        588,
+        846
+      ]
+    },
+    {
+      "texto": "QUENTE",
+      "caixa": [
+        96,
+        873,
+        641,
+        1044
+      ]
+    },
+    {
+      "texto": "SEU PRÓXIMO SMASH.",
+      "caixa": [
+        96,
+        1145,
+        554,
+        1190
+      ]
+    },
+    {
+      "texto": "QUAL É O SEU PEDIDO?",
+      "caixa": [
+        130,
+        1272,
+        617,
+        1322
+      ]
+    },
+    {
+      "texto": "CONCEITO DEMONSTRATIVO",
+      "caixa": [
+        104,
+        1450,
+        568,
+        1478
+      ]
+    },
+    {
+      "texto": "IMAGENS IA · MARCA FICTÍCIA",
+      "caixa": [
+        104,
+        1497,
+        586,
+        1532
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schema": 1,
+  "offline": true,
+  "externalRequests": 0,
+  "javascriptErrors": 0,
+  "mobileOverflow": false,
+  "interactions": [
+    {
+      "view": "before",
+      "visibleRows": 12,
+      "passed": true
+    },
+    {
+      "view": "after",
+      "visibleRows": 4,
+      "passed": true
+    },
+    {
+      "view": "review",
+      "visibleRows": 5,
+      "passed": true
+    },
+    {
+      "view": "duplicates",
+      "visibleRows": 3,
+      "passed": true
+    }
+  ],
+  "videoFrames": 80,
+  "videoFps": 4,
+  "videoSeconds": 20
+}

@@ -1,0 +1,13 @@
+pedido_id;cliente;email;produto;quantidade;valor_unitario;status
+PED-1001;  Loja   Azul ; CONTATO@LOJAAZUL.EXAMPLE ;Caneca;02;R$ 39,90; NOVO
+ ped-1001 ;Loja Azul;contato@lojaazul.example;Caneca;2;39.90;novo
+PED-1002;Estúdio Aurora;PEDIDOS@AURORA.EXAMPLE;Caderno;3;24,50;Em separação
+PED-1003;Oficina Horizonte;loja@horizonte.example;Agenda;1;R$ 59,90;ENVIADO
+PED-1004;Ateliê Brisa;compras@brisa.example;Kit de mesa;1;129,00;novo
+PED-1002; Estúdio  Aurora ;pedidos@aurora.example;Caderno;03;24.50;em_separacao
+PED-1004;Ateliê Brisa; COMPRAS@BRISA.EXAMPLE ;Kit de mesa;01;129.0;NOVO
+PED-1005;Loja Campo;sem-arroba.example;Caneca;1;39,90;novo
+PED-1006;Estúdio Folha;contato@folha.example;Caderno;zero;24,50;novo
+PED-1007;Ateliê Nuvem;loja@nuvem.example;Agenda;1;1.234;novo
+PED-1008;Loja Pátio;contato@patio.example;Ecobag;2;25,00;novo
+PED-1008;Loja Pátio;contato@patio.example;Ecobag;2;30,00;novo

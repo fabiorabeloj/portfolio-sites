@@ -1,0 +1,5 @@
+﻿pedido_id;cliente;email;produto;quantidade;valor_unitario;status
+PED-1001;Loja Azul;contato@lojaazul.example;Caneca;2;39.90;novo
+PED-1002;Estúdio Aurora;pedidos@aurora.example;Caderno;3;24.50;em_separacao
+PED-1003;Oficina Horizonte;loja@horizonte.example;Agenda;1;59.90;enviado
+PED-1004;Ateliê Brisa;compras@brisa.example;Kit de mesa;1;129.00;novo

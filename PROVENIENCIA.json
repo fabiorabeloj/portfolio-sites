@@ -1,0 +1,124 @@
+{
+  "schema": 1,
+  "base_commit": "fb7721d8737c0459c41703b18360b6a1274b4c18",
+  "review_date": "2026-11-16",
+  "concepts": true,
+  "ai_images": true,
+  "contacts": "simulated_local_notices",
+  "files": [
+    {
+      "path": "barbearia.html",
+      "sha256": "56d55903a5a92410ad1148af256946eb2d18a32cbf4d82c6abe4878ea02bbc02",
+      "origin": "reviewed-concepts-2026-11-15",
+      "source_sha256": "9508edfbd21fd54897db119625305089c0ac986de2ebfb03ae74c225c7c7ab80"
+    },
+    {
+      "path": "hamburgueria.html",
+      "sha256": "e19bf941239accbce99a89302b682375dc25207b4dcb59986bdf1e2da56e2f49",
+      "origin": "reviewed-concepts-2026-11-15",
+      "source_sha256": "939d845e13c0f31f82cf62cf75e43a262faa22ca896b4409bf35de507ee82e66"
+    },
+    {
+      "path": "index.html",
+      "sha256": "0a059199e74daab675805dda617d46d75291829a46fbfed9d7bdc0f7a0627c81",
+      "origin": "public-base-fb7721d8",
+      "source_sha256": null
+    },
+    {
+      "path": "salao.html",
+      "sha256": "19228008ba71c2d83f61ce6d68de3c0a5242d473ed29a84eaa902b6640a09880",
+      "origin": "reviewed-concepts-2026-11-15",
+      "source_sha256": "ffe765968a11e4c1ff1cc58274d907608aec04bf821368e2cf8b9ab2318c6fc5"
+    },
+    {
+      "path": "fotos/barbearia-capa.jpg",
+      "sha256": "1c59276646924d593e649e6d5f8bd29c2c16e015360f9064be5702fd0d607c55",
+      "origin": "reviewed-concepts-2026-11-15",
+      "source_sha256": "1c59276646924d593e649e6d5f8bd29c2c16e015360f9064be5702fd0d607c55"
+    },
+    {
+      "path": "fotos/barbearia-detalhe.jpg",
+      "sha256": "880e287e590f072c0693d6d45bbde22f89734e301b96bae96f130ca6a01ddccf",
+      "origin": "reviewed-concepts-2026-11-15",
+      "source_sha256": "880e287e590f072c0693d6d45bbde22f89734e301b96bae96f130ca6a01ddccf"
+    },
+    {
+      "path": "fotos/lanche-capa.jpg",
+      "sha256": "96a8729e830111d60671e4e0e49e197f6d1c9fcc1014a202e8ef5a7e4e0c6d58",
+      "origin": "reviewed-concepts-2026-11-15",
+      "source_sha256": "96a8729e830111d60671e4e0e49e197f6d1c9fcc1014a202e8ef5a7e4e0c6d58"
+    },
+    {
+      "path": "fotos/lanche-detalhe.jpg",
+      "sha256": "0f4ac0cc28546bbaa7994d07fd71db66e6ed64ba4e97a13f96e8eb157a3b4b33",
+      "origin": "reviewed-concepts-2026-11-15",
+      "source_sha256": "0f4ac0cc28546bbaa7994d07fd71db66e6ed64ba4e97a13f96e8eb157a3b4b33"
+    },
+    {
+      "path": "fotos/salao-capa.jpg",
+      "sha256": "1ef92ca70cc31ab881075abe19c468136066f855f3b92588a76e9908cfdb1c1d",
+      "origin": "reviewed-concepts-2026-11-15",
+      "source_sha256": "1ef92ca70cc31ab881075abe19c468136066f855f3b92588a76e9908cfdb1c1d"
+    },
+    {
+      "path": "fotos/salao-detalhe.jpg",
+      "sha256": "7ad90d1bb0c66ac32010f01a7831607c559621975f1cd99e7f78fbb6ebad9d22",
+      "origin": "reviewed-concepts-2026-11-15",
+      "source_sha256": "7ad90d1bb0c66ac32010f01a7831607c559621975f1cd99e7f78fbb6ebad9d22"
+    },
+    {
+      "path": "capturas/barbearia-celular.png",
+      "sha256": "884164af1136e1f053b25e56bd9f3dc85fbc5bf891e8b8be79279de08fad3bc2",
+      "origin": "public-base-fb7721d8",
+      "source_sha256": "b197e6e01a12c75828e09d8d6130f44e31a2ad381a1fb2d8659251f8b1757002"
+    },
+    {
+      "path": "capturas/barbearia-computador.png",
+      "sha256": "37451dad430eb4f822965c622b034bf885463a905a61f9091063310895b31e6e",
+      "origin": "public-base-fb7721d8",
+      "source_sha256": "6c1f6a66a4bfe6cc6f7c27234802ecb5eda4481d65dc26914c34e01702a688c0"
+    },
+    {
+      "path": "capturas/hamburgueria-celular.png",
+      "sha256": "316c4621808458e62e6fe7311cb5d6f04d3c96e23e9b5aa1c11facfeddf6b180",
+      "origin": "public-base-fb7721d8",
+      "source_sha256": "ddb1b88fc5242ab46675689604bd7c4f3a082a6a02a6e27f2a3cf126c17eb12d"
+    },
+    {
+      "path": "capturas/hamburgueria-computador.png",
+      "sha256": "6852f56627f1263e1b4ede8bef16e86c49cc4223053c274a979044624d7a370c",
+      "origin": "public-base-fb7721d8",
+      "source_sha256": "7077e0c9d3a4579ee6395e87d4bc1fc7bc14675748557a21c15a001e2e2d9a7c"
+    },
+    {
+      "path": "capturas/salao-celular.png",
+      "sha256": "6ac5aa8754e583a68e5ea72d12a954f58caac61bb2b6f6d676a1a9a3603f21f4",
+      "origin": "public-base-fb7721d8",
+      "source_sha256": "f2842ba963e287f5dbfc27c0a30a5053cf3260ab29c16790cedc1ba2d7ddcdf7"
+    },
+    {
+      "path": "capturas/salao-computador.png",
+      "sha256": "6f31987c132029d721a8967ddc6b3285487693b99cf76704f06ee07f912808c7",
+      "origin": "public-base-fb7721d8",
+      "source_sha256": "f74139c992bb65717d619889c6056d5e5675c6b1b95f57f2013a9c915b5d6d59"
+    },
+    {
+      "path": "previas/barbearia.jpg",
+      "sha256": "b3d120d44f984253dd8efe4240cf75dbe4fee4644ed24c039a7a921e3e7d5de4",
+      "origin": "public-base-fb7721d8",
+      "source_sha256": null
+    },
+    {
+      "path": "previas/hamburgueria.jpg",
+      "sha256": "4ed21106de12b4ca8e9d11ec949f93d8d367bbf53da14bc13d6d6f7a4cead3d9",
+      "origin": "public-base-fb7721d8",
+      "source_sha256": null
+    },
+    {
+      "path": "previas/salao.jpg",
+      "sha256": "1a3c48fc72179a05c7f39c4f78fdae16b5e039912489a25c2801a28ebfb52870",
+      "origin": "public-base-fb7721d8",
+      "source_sha256": null
+    }
+  ]
+}

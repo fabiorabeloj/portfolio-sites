@@ -1,0 +1,78 @@
+{
+  "schema": 1,
+  "data": "2026-11-16",
+  "escopo": "Demonstracao local com dados ficticios; nao comprova integracao de producao",
+  "python": "3.12",
+  "testes": {
+    "total": 14,
+    "exit_code": 0,
+    "comando": "python -X utf8 -B -m unittest discover -s tests -v"
+  },
+  "ruff": {
+    "exit_code": 0,
+    "arquivos": [
+      "automatizar.py",
+      "demonstrar.py",
+      "tests/test_automatizar.py"
+    ]
+  },
+  "html": {
+    "erros": 0,
+    "avisos": 0,
+    "larguras_conferidas": [
+      390,
+      1440
+    ],
+    "violacoes_axe": 0,
+    "revisoes_manuais_axe": 0,
+    "erros_javascript": 0,
+    "overflow_da_pagina": false,
+    "rede_externa": false
+  },
+  "interacao": {
+    "cliques_conferidos": 4,
+    "linhas_por_visao": {
+      "before": 12,
+      "after": 4,
+      "review": 5,
+      "duplicates": 3
+    },
+    "evidencia": "demo/interface-validacao.json"
+  },
+  "idempotencia": {
+    "execucoes_reais_da_cli": 2,
+    "arquivos_identicos": true,
+    "evidencia": "demo/comprovacao.json"
+  },
+  "scanner_segredos": {
+    "achados_finais": 0,
+    "triagem_inicial": "Dois falsos positivos eram digests SHA-256 ao lado da chave resumo.json. O prefixo sha256 explicita o algoritmo; nenhuma regra foi desativada ou excluida."
+  },
+  "capturas_revisadas": [
+    "capturas/after-1440.png",
+    "capturas/after-390.png",
+    "capturas/before-1440.png",
+    "capturas/review-1440.png"
+  ],
+  "video": {
+    "arquivo": "demo/demonstracao.mp4",
+    "segundos": 20,
+    "codec": "h264",
+    "largura": 1440,
+    "altura": 1000,
+    "pixel_format": "yuv420p",
+    "audio": false,
+    "bytes": 400750,
+    "metodo": "Montagem de capturas dos estados reais do relatorio; nao mede tempo de execucao"
+  },
+  "dados_reais": false,
+  "dependencias_python_adicionais": [],
+  "novos_gastos": 0,
+  "publicado_por_este_produtor": false,
+  "integracao": {
+    "log_detalhado_distribuido": false,
+    "testes_reexecutados": 14,
+    "cli_reexecutada": 2,
+    "arquivos_identicos": true
+  }
+}

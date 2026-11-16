@@ -1,0 +1,2 @@
+# Preserve os bytes do export público e seus hashes.
+* -text whitespace=cr-at-eol

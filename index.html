@@ -1,10 +1,10 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Portfólio de sites · Fabio Rabelo</title>
-  <meta name="description" content="Três sites de exemplo para pequenos negócios: barbearia, salão de beleza e hamburgueria. HTML, CSS e JavaScript, pensados primeiro para o celular.">
+  <title>Sites, vídeo e automação · Fabio Rabelo</title>
+  <meta name="description" content="Sites para negócios fictícios, vídeo Chapa Quente e automação local de pedidos CSV. Demonstrações com código e limites verificáveis.">
   <style>
     :root { --tinta: #1d2125; --suave: #5b636b; --fundo: #f6f5f2; --cartao: #ffffff; --borda: #e2e0da; --destaque: #0e5a43; }
     * { box-sizing: border-box; }
@@ -29,13 +29,15 @@
     section.feito ul { margin: 0; padding-left: 20px; color: var(--suave); }
     footer { padding-top: 24px; padding-bottom: 48px; color: var(--suave); font-size: .92rem; }
     a.link { color: var(--destaque); }
+    video { display: block; width: 100%; height: 350px; background: #141210; }
+    @media (prefers-reduced-motion: reduce) { .cartao { transition: none; } }
   </style>
 </head>
 <body>
   <header>
-    <h1>Portfólio de sites para pequenos negócios</h1>
-    <p class="lead">Três páginas de exemplo, cada uma com identidade própria, preços claros e um caminho direto para o cliente agendar ou pedir.</p>
-    <span class="aviso">Negócios fictícios · imagens geradas por IA · contatos simulados</span>
+    <h1>Sites, vídeo e automação</h1>
+    <p class="lead">Demonstrações de páginas para negócios locais, edição de vídeo e organização de pedidos. Código, fontes e instruções acompanham cada projeto.</p>
+    <span class="aviso">Conceitos fictícios · imagens de IA identificadas · sem operações em contas reais</span>
   </header>
 
   <main>
@@ -44,8 +46,8 @@
         <img src="previas/barbearia.jpg" alt="Página inicial da Barbearia Brasa" width="960" height="600">
         <div class="corpo">
           <h2>Barbearia Brasa</h2>
-          <p>Corte e barba com hora marcada, tabela de preços e agendamento em um toque.</p>
-          <ul class="tags"><li>Agendamento</li><li>Tabela de preços</li><li>Tema escuro</li></ul>
+          <p>Conceito de barbearia com serviços, preços e botões de agendamento simulados.</p>
+          <ul class="tags"><li>Contato simulado</li><li>Tabela de preços</li><li>Tema escuro</li></ul>
         </div>
       </a>
       <a class="cartao" href="salao.html">
@@ -53,25 +55,50 @@
         <div class="corpo">
           <h2>Studio Aurora</h2>
           <p>Salão de cabelo e unhas com serviços separados por categoria e horários visíveis.</p>
-          <ul class="tags"><li>Serviços por categoria</li><li>Agendamento</li><li>Tema claro</li></ul>
+          <ul class="tags"><li>Serviços por categoria</li><li>Contato simulado</li><li>Tema claro</li></ul>
         </div>
       </a>
       <a class="cartao" href="hamburgueria.html">
         <img src="previas/hamburgueria.jpg" alt="Página inicial da hamburgueria Chapa Quente" width="960" height="600">
         <div class="corpo">
           <h2>Chapa Quente</h2>
-          <p>Hamburgueria com cardápio, horário de funcionamento e pedido direto pelo WhatsApp.</p>
-          <ul class="tags"><li>Cardápio</li><li>Pedido rápido</li><li>Identidade forte</li></ul>
+          <p>Conceito de hamburgueria com cardápio, horários e pedido simulado.</p>
+          <ul class="tags"><li>Cardápio</li><li>Pedido simulado</li><li>Identidade forte</li></ul>
         </div>
       </a>
     </div>
 
+    <section class="feito" aria-labelledby="projetos">
+      <h2 id="projetos">Vídeo e automação em funcionamento local</h2>
+      <div class="grade">
+        <article class="cartao">
+          <video controls preload="metadata" poster="examples/video/capa.png" aria-label="Chapa Quente: demonstração de motion design sobre imagens de IA, sem fala">
+            <source src="examples/video/chapa-quente-18s.mp4" type="video/mp4">
+            <a href="examples/video/chapa-quente-18s.mp4">Baixar vídeo Chapa Quente</a>
+          </video>
+          <div class="corpo">
+            <h2>Chapa Quente · vídeo de 18 segundos</h2>
+            <p>Tipografia animada, reenquadramentos e áudio original sobre duas imagens de IA. Marca fictícia, sem filmagem de cliente ou restaurante real.</p>
+            <a class="link" href="https://github.com/fabiorabeloj/portfolio-sites/tree/main/examples/video">Fontes da edição, direitos e reprodução</a>
+          </div>
+        </article>
+        <a class="cartao" href="examples/automation/demo/resultado/relatorio.html">
+          <img src="examples/automation/capturas/after-1440.png" alt="Relatório da demonstração de automação, com quatro pedidos prontos e cinco linhas para revisar" width="1440" height="1000">
+          <div class="corpo">
+            <h2>Pedidos em ordem · automação CSV</h2>
+            <p>Doze linhas fictícias viram quatro pedidos prontos, três duplicatas rastreadas e cinco linhas para revisão. Abra o relatório e confira cada destino.</p>
+            <ul class="tags"><li>Python padrão</li><li>Sem API</li><li>Repetição sem duplicação</li></ul>
+          </div>
+        </a>
+      </div>
+    </section>
+
     <section class="feito">
-      <h2>Como foram feitos</h2>
+      <h2>Como foram feitos os três sites simples</h2>
       <ul>
         <li>HTML, CSS e JavaScript puros, sem framework e sem etapa de build.</li>
         <li>Pensados primeiro para o celular e conferidos em 390 px e 1440 px.</li>
-        <li>Botões de contato e mapa simulados: no site de um cliente real, abrem o WhatsApp e o mapa do negócio.</li>
+        <li>Botões de contato e mapa mostram apenas um aviso local. Nenhuma mensagem, reserva ou pedido é enviado.</li>
       </ul>
     </section>
   </main>

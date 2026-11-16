@@ -1,0 +1,16 @@
+{
+  "conceito": "Chapa Quente",
+  "duracao_s": 18,
+  "fps": 30,
+  "resolucao": [1080, 1920],
+  "bpm": 100,
+  "safe_area_texto": [96, 160, 910, 1560],
+  "aviso": ["CONCEITO DEMONSTRATIVO", "IMAGENS IA · MARCA FICTÍCIA"],
+  "cenas": [
+    {"inicio": 0, "fim": 2.4, "foto": "lanche-capa.jpg", "recorte": [400, 0, 1344, 768], "janela": [0, 560, 1080, 1610], "titulo": ["BATEU", "A FOME?"], "tamanho": 153, "y": 225},
+    {"inicio": 2.4, "fim": 6, "foto": "lanche-detalhe.jpg", "recorte": [100, 480, 1024, 965], "janela": [0, 560, 1080, 1330], "titulo": ["COMEÇA", "NA CHAPA."], "tamanho": 144, "y": 225, "apoio": "CALOR. CROSTA. SABOR."},
+    {"inicio": 6, "fim": 9.6, "foto": "lanche-capa.jpg", "recorte": [480, 315, 1250, 720], "janela": [0, 650, 1080, 1450], "titulo": ["CHEDDAR.", "BACON.", "E PRONTO."], "tamanho": 132, "y": 210},
+    {"inicio": 9.6, "fim": 13.2, "foto": "lanche-capa.jpg", "recorte": [350, 0, 1344, 768], "janela": [0, 240, 1080, 1020], "titulo": ["CAPRICHO", "EM CADA", "CAMADA."], "tamanho": 126, "y": 1035},
+    {"inicio": 13.2, "fim": 18, "titulo": ["CHAPA", "QUENTE"], "tamanho": 185, "y": 690, "apoio": "SEU PRÓXIMO SMASH.", "cta": "QUAL É O SEU PEDIDO?"}
+  ]
+}
